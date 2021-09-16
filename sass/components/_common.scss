@@ -1,3 +1,39 @@
+body {
+  font-family: Noto Sans;
+  font-family: Noto Sans;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 32px;
+}
+
+html {
+  box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
 .container-fluid {
   padding: 8px;
+  margin: 0px;
+}
+
+.upper {
+  text-transform: uppercase;
+}
+.centered {
+  text-align: center;
+}
+
+.section-title {
+  font-family: BBC Reith Sans;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 40px;
+  text-align: center;
+  letter-spacing: 2.42px;
 }

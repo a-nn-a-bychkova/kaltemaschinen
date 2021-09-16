@@ -1,16 +1,59 @@
+body {
+  font-family: Noto Sans;
+  font-family: Noto Sans;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 32px;
+}
+
+html {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+  -webkit-box-sizing: inherit;
+          box-sizing: inherit;
+}
+
 .container-fluid {
   padding: 8px;
+  margin: 0px;
+}
+
+.upper {
+  text-transform: uppercase;
+}
+
+.centered {
+  text-align: center;
+}
+
+.section-title {
+  font-family: BBC Reith Sans;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 40px;
+  text-align: center;
+  letter-spacing: 2.42px;
 }
 
 .navbar {
   padding: 0px;
 }
 
+.navbar-light .navbar-nav .active > .nav-link {
+  color: #2e75ff;
+}
+
 .hero {
   text-align: center;
 }
 
-.hero-text {
+.hero-title {
   font-style: 400;
   font-weight: 400;
   font-size: 24px;
@@ -24,5 +67,66 @@
   background-color: #edeff3;
   width: 227px;
   height: 2px;
+}
+
+.box-img-1 {
+  width: 354px;
+  height: 355px;
+  background-image: url("/images/img-1.jpg");
+  background-size: cover;
+}
+
+.hero-text {
+  font-weight: 600;
+  font-size: 16px;
+  letter-spacing: -0.004em;
+  color: #020303;
+}
+
+.box-img-2 {
+  width: 414px;
+  height: 234px;
+  background-image: url("/images/img-2.jpg");
+  background-size: cover;
+}
+
+.section-title_blue {
+  color: #1652ac;
+  -webkit-transform: rotate(0.02deg);
+          transform: rotate(0.02deg);
+}
+
+.section-1-text {
+  font-size: 17px;
+  color: #45494f;
+}
+
+.box-img-3 {
+  width: 378px;
+  height: 505px;
+  background-image: url("/images/img-3.jpg");
+  background-size: cover;
+}
+
+.blue-box {
+  background: -webkit-gradient(linear, left top, left bottom, from(#163da2), to(#003584));
+  background: linear-gradient(180deg, #163da2 0%, #003584 100%);
+}
+
+.section-title_white {
+  color: #fbfdff;
+}
+
+.section-2-text {
+  font-size: 16px;
+  letter-spacing: -0.4px;
+  color: #fbfdff;
+}
+
+.box-img-4 {
+  width: 692px;
+  height: 555px;
+  background-image: url("/images/IconHotToCold.jpg");
+  background-size: contain;
 }
 /*# sourceMappingURL=main.css.map */

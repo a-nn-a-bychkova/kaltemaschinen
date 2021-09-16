@@ -1,7 +1,7 @@
 .hero {
   text-align: center;
 }
-.hero-text {
+.hero-title {
   //   font-family: BBC Reith Sans;
   font-style: 400;
   font-weight: 400;
@@ -15,4 +15,18 @@
   background-color: #edeff3;
   width: 227px;
   height: 2px;
+}
+
+.box-img-1 {
+  width: 354px;
+  height: 355px;
+  background-image: url('/images/img-1.jpg');
+  background-size: cover;
+}
+
+.hero-text {
+  font-weight: 600;
+  font-size: 16px;
+  letter-spacing: -0.004em;
+  color: #020303;
 }

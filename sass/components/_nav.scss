@@ -1,3 +1,6 @@
 .navbar {
   padding: 0px;
 }
+.navbar-light .navbar-nav .active > .nav-link {
+  color: #2e75ff;
+}
