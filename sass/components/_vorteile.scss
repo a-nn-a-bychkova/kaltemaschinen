@@ -5,6 +5,20 @@
   letter-spacing: 4.42px;
   color: #020303;
 }
+// .vorteile-list {
+//   list-style-type: none;
+// }
+li.vorteile-item {
+  list-style-type: none;
+  display: flex;
+  width: 100%;
+  height: 136px;
+  box-shadow: 0px 1px 4px rgba(0, 0, 0, 0.15);
+  border-radius: 16px;
+}
+
 .icon-vorteile {
-  color: blue;
+  fill: blue;
+  // fill: 'url(../images/img-1.jpg)';
+  // background: linear-gradient(332.71deg, #0043A7 -18.7%, #6377E3 80.5%);
 }
