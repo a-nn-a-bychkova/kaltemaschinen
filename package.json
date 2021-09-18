@@ -1,0 +1,25 @@
+{
+  "name": "kaltemaschinen",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.html",
+  "dependencies": {
+    "bootstrap": "^5.1.1"
+  },
+  "devDependencies": {
+    "sass": "^1.41.1"
+  },
+  "scripts": {
+    "build": "sass ./sass/main.scss ./css/main.css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/a-nn-a-bychkova/kaltemaschinen.git"
+  },
+  "author": "Anna Bychkova",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/a-nn-a-bychkova/kaltemaschinen/issues"
+  },
+  "homepage": "https://github.com/a-nn-a-bychkova/kaltemaschinen#readme"
+}

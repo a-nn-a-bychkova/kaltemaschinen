@@ -6,15 +6,13 @@ body {
 }
 
 html {
-  -webkit-box-sizing: border-box;
-          box-sizing: border-box;
+  box-sizing: border-box;
 }
 
 *,
 *::before,
 *::after {
-  -webkit-box-sizing: inherit;
-          box-sizing: inherit;
+  box-sizing: inherit;
 }
 
 .container-fluid {
@@ -103,8 +101,7 @@ li {
 
 .section-title_blue {
   color: #1652ac;
-  -webkit-transform: rotate(0.02deg);
-          transform: rotate(0.02deg);
+  transform: rotate(0.02deg);
 }
 
 .section-1-text {
@@ -120,7 +117,6 @@ li {
 }
 
 .blue-box {
-  background: -webkit-gradient(linear, left top, left bottom, from(#163da2), to(#003584));
   background: linear-gradient(180deg, #163da2 0%, #003584 100%);
 }
 
@@ -162,13 +158,10 @@ li {
 }
 
 li.vorteile-item {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
   width: 100%;
   height: 136px;
-  -webkit-box-shadow: 0px 1px 4px rgba(0, 0, 0, 0.15);
-          box-shadow: 0px 1px 4px rgba(0, 0, 0, 0.15);
+  box-shadow: 0px 1px 4px rgba(0, 0, 0, 0.15);
   border-radius: 16px;
 }
 
@@ -177,8 +170,7 @@ li.vorteile-item {
 }
 
 .hauptmerkmale-section {
-  -webkit-box-shadow: 0px 1px 4px rgba(0, 0, 0, 0.15);
-          box-shadow: 0px 1px 4px rgba(0, 0, 0, 0.15);
+  box-shadow: 0px 1px 4px rgba(0, 0, 0, 0.15);
   border-radius: 16px;
   padding: 46px 16px 46px 16px;
 }
@@ -198,8 +190,6 @@ ol {
 
 li.hauptmerkmale-text {
   list-style: none;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
   position: relative;
   padding-left: 35px;
@@ -233,4 +223,13 @@ li.hauptmerkmale-text:before {
   padding-top: 32px;
   padding-bottom: 18px;
 }
+
+img .bilder-img {
+  display: block;
+  width: 100%;
+  height: 479px;
+  border-radius: 8px;
+  overflow: hidden;
+}
+
 /*# sourceMappingURL=main.css.map */
