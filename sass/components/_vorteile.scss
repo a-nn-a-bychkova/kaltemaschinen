@@ -9,7 +9,6 @@
 //   list-style-type: none;
 // }
 li.vorteile-item {
-  list-style-type: none;
   display: flex;
   width: 100%;
   height: 136px;
@@ -19,6 +18,6 @@ li.vorteile-item {
 
 .icon-vorteile {
   fill: blue;
-  // fill: 'url(../images/img-1.jpg)';
-  // background: linear-gradient(332.71deg, #0043A7 -18.7%, #6377E3 80.5%);
+  // fill: url(' ../../images/svg/symbol-defs-2.svg#gradient');
+  // fill: linear-gradient(332.71deg, #0043a7 -18.7%, #6377e3 80.5%);
 }
