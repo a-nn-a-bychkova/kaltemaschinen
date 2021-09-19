@@ -463,6 +463,7 @@ li .related-links-item {
 
 .appointment-button {
   display: block;
+  position: relative;
   width: 100%;
   height: 69px;
   background-color: #004fc7;
@@ -479,12 +480,9 @@ li .related-links-item {
 }
 
 .arrow {
-  width: 79px;
-  height: 0px;
-  -webkit-box-sizing: border-box;
-          box-sizing: border-box;
-  fill: #ffffff;
-  border: 2x solid #ffffff;
+  position: absolute;
+  left: 0px;
+  top: 25px;
 }
 
 .footer-container {
