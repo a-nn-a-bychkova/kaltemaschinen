@@ -1,6 +1,6 @@
 section.related-liks-section {
-  padding-top: 24px;
-  padding-bottom: 65px;
+  padding: 24px 8px 64px 8px;
+
   text-align: center;
 }
 
@@ -21,4 +21,7 @@ li .related-links-item {
   font-size: 16px;
   letter-spacing: 1.42px;
   color: #fafbfe;
+}
+.related-links-item:last-child {
+  padding-bottom: 0px;
 }

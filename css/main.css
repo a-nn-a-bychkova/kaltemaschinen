@@ -370,8 +370,7 @@ li.features-text:before {
 }
 
 section.related-liks-section {
-  padding-top: 24px;
-  padding-bottom: 65px;
+  padding: 24px 8px 64px 8px;
   text-align: center;
 }
 
@@ -398,27 +397,43 @@ li .related-links-item {
   color: #fafbfe;
 }
 
+.related-links-item:last-child {
+  padding-bottom: 0px;
+}
+
 .appointment-section {
-  padding-top: 48px;
+  padding-left: 8px;
+  padding-right: 8px;
   padding-bottom: 10px;
 }
 
+.appointment-container {
+  padding: 48px 24px 10px 24px;
+}
+
 .appointment-logo {
+  margin-left: auto;
+  margin-right: auto;
   background-image: url(../../images/logo-grey.jpg);
   width: 155px;
   height: 60px;
-  margin-bottom: 27px;
+  margin-bottom: 28px;
 }
 
 .appointment-title {
   font-size: 26px;
+  padding-bottom: 32px;
   line-height: 43px;
   letter-spacing: -0.4px;
 }
 
+.appointment-text {
+  padding-bottom: 40px;
+}
+
 .appointment-button {
   display: block;
-  width: 306px;
+  width: 100%;
   height: 69px;
   background-color: #004fc7;
   border: 1px solid #ffffff;
@@ -443,7 +458,7 @@ li .related-links-item {
 }
 
 .footer-container {
-  margin: 42px 32px;
+  margin: 46px 32px;
 }
 
 .footer-title {
