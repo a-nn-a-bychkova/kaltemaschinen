@@ -1,16 +1,6 @@
 <svg aria-hidden="true" style="position: absolute; width: 0; height: 0; overflow: hidden;" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
 <defs>
-<linearGradient id="gradient">
-            <stop offset="-1.04974" stop-color="#D8D8D8">
-                <animate attributeName="offset" values="-2; 1" dur="1s" repeatCount="indefinite"></animate>
-            </stop>
-            <stop offset="-0.549739" stop-color="#EEEEEE">
-                <animate attributeName="offset" values="-1.5; 1.5" dur="1s" repeatCount="indefinite"></animate>
-            </stop>
-            <stop offset="-0.0497395" stop-color="#D8D8D8">
-                <animate attributeName="offset" values="-1; 2" dur="1s" repeatCount="indefinite"></animate>
-            </stop>
-</linearGradient>
+
 <symbol id="icon-svg-1" viewBox="0 0 40 32">
 <path stroke-linejoin="round" stroke-linecap="butt" stroke-miterlimit="4" stroke-width="0.8205" d="M14.724 0.821c0-0.227-0.184-0.41-0.41-0.41h-13.493c-0.227 0-0.41 0.184-0.41 0.41v8.096c0 0.227 0.184 0.41 0.41 0.41h2.699c0.227 0 0.41-0.184 0.41-0.41v-4.987h10.384c0.227 0 0.41-0.184 0.41-0.41v-2.699z"></path>
 <path stroke-linejoin="round" stroke-linecap="butt" stroke-miterlimit="4" stroke-width="0.8205" d="M25.108 0.41c-0.227 0-0.41 0.184-0.41 0.41v2.699c0 0.227 0.184 0.41 0.41 0.41h10.384v4.987c0 0.227 0.184 0.41 0.41 0.41h2.699c0.227 0 0.41-0.184 0.41-0.41v-8.096c0-0.227-0.184-0.41-0.41-0.41h-13.493z"></path>

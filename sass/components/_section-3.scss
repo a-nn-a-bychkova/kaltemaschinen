@@ -1,8 +1,9 @@
 .box-img-3 {
-  width: 100%;
+  display: block;
+  max-width: 100%;
   height: 505px;
-  background: url('/images/img-3.jpg') no-repeat center;
-  background-size: cover;
+  // background: url('/images/img-3.jpg') no-repeat center;
+  // background-size: cover;
 }
 .blue-box {
   background: linear-gradient(180deg, #163da2 0%, #003584 100%);

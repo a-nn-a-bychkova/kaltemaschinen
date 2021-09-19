@@ -1,3 +1,7 @@
+@import '../../node_modules/bootstrap/scss/functions';
+@import '../../node_modules/bootstrap/scss/variables';
+@import '../../node_modules/bootstrap/scss/mixins';
+
 .header-container {
   padding: 8px 24px;
   height: 42px;
@@ -20,4 +24,18 @@
 }
 .logo-img {
   display: block;
+}
+
+@include media-breakpoint-up(lg) {
+  .logo-img {
+    margin-right: 30px;
+  }
+
+  .navbar-light .navbar-nav .nav-link {
+    padding: 0px;
+  }
+  .navbar-expand-lg .navbar-nav {
+    display: flex;
+    justify-content: space-between;
+  }
 }
