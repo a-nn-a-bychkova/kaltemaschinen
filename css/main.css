@@ -342,6 +342,15 @@ li.features-text:before {
   padding-bottom: 18px;
 }
 
+.images-section-img {
+  display: block;
+  margin-right: auto;
+  margin-left: auto;
+  max-width: 360px;
+  height: 479px;
+  border-radius: 8px;
+}
+
 .ellipse-container {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -376,6 +385,8 @@ section.related-liks-section {
 
 li .related-links-item {
   display: block;
+  margin-left: auto;
+  margin-right: auto;
   width: 359px;
   height: 64px;
   background-color: #004fc7;
