@@ -1,9 +1,13 @@
-.hauptmerkmale-section {
+.features-section {
+  padding-left: 8px;
+  padding-right: 8px;
+}
+.features-container {
   box-shadow: 0px 1px 4px rgba(0, 0, 0, 0.15);
   border-radius: 16px;
   padding: 46px 16px 46px 16px;
 }
-.hauptmerkmale-title {
+.features-title {
   font-weight: 500;
   font-size: 20px;
   letter-spacing: 4.42px;
@@ -16,7 +20,7 @@ ol {
   padding: 0px;
 }
 
-li.hauptmerkmale-text {
+li.features-text {
   list-style: none;
   display: flex;
   position: relative;
@@ -24,7 +28,7 @@ li.hauptmerkmale-text {
   padding-bottom: 36px;
 }
 
-li.hauptmerkmale-text:before {
+li.features-text:before {
   counter-increment: myCounter;
   content: counter(myCounter);
   color: black;

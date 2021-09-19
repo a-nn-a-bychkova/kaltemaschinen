@@ -1,17 +1,13 @@
-.box-img-3 {
-  width: 378px;
-  height: 505px;
-  background-image: url('/images/img-3.jpg');
-  background-size: cover;
+.box-img-2 {
+  max-width: 414px;
+  height: 234px;
+  background: url('/images/img-2.jpg') no-repeat center;
+  background-size: contain;
 }
-.blue-box {
-  background: linear-gradient(180deg, #163da2 0%, #003584 100%);
-}
-.section-title_white {
-  color: #fbfdff;
-}
+
 .section-2-text {
-  font-size: 16px;
-  letter-spacing: -0.4px;
-  color: #fbfdff;
+  text-align: left;
+  font-size: 17px;
+  line-height: 32px;
+  color: #45494f;
 }

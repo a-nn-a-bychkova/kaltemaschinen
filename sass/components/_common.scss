@@ -3,6 +3,8 @@ body {
   font-style: normal;
   font-weight: 400;
   line-height: 32px;
+  padding: 0px;
+  margin: 0px;
 }
 
 html {
@@ -14,21 +16,29 @@ html {
 *::after {
   box-sizing: inherit;
 }
-
+h1,
+h2,
+h3 {
+  margin: 0px;
+}
 .container-fluid {
-  padding: 8px;
+  padding: 0px;
   margin: 0px;
 }
 
 .upper {
   text-transform: uppercase;
 }
-.centered {
+// .centered {
+//   text-align: center;
+// }
+.section {
   text-align: center;
+  padding-left: 16px;
+  padding-right: 16px;
 }
-
 .section-title {
-  font-family: BBC Reith Sans;
+  font-family: Roboto, sans-serif;
   font-style: normal;
   font-weight: 700;
   font-size: 18px;
@@ -45,4 +55,26 @@ ul {
 }
 li {
   list-style-type: none;
+}
+p {
+  margin: 0px;
+}
+.hr {
+  border: none;
+  background-color: #edeff3;
+  width: 227px;
+  height: 2px;
+}
+
+.long-hr {
+  border: 1px solid #bdc0c7;
+  width: 100%;
+  margin: 0px;
+}
+
+.blue {
+  color: #1652ac;
+}
+a {
+  text-decoration: none;
 }

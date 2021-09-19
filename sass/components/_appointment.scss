@@ -1,0 +1,40 @@
+.appointment-section {
+  padding-top: 48px;
+  padding-bottom: 10px;
+}
+
+.appointment-logo {
+  background-image: url(../../images/logo-grey.jpg);
+  width: 155px;
+  height: 60px;
+  //   opacity: 0.2;
+  margin-bottom: 27px;
+}
+.appointment-title {
+  font-size: 26px;
+  line-height: 43px;
+  letter-spacing: -0.4px;
+}
+.appointment-button {
+  display: block;
+
+  width: 306px;
+  height: 69px;
+  background-color: #004fc7;
+  border: 1px solid #ffffff;
+  box-sizing: border-box;
+  box-shadow: 0px 1px 4px rgba(48, 67, 133, 0.5);
+  border-radius: 12px;
+
+  text-align: center;
+  line-height: 69px;
+  text-decoration: none;
+  color: #ffffff;
+}
+.arrow {
+  width: 79px;
+  height: 0px;
+  box-sizing: border-box;
+  fill: white;
+  border: 2x solid white;
+}

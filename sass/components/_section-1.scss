@@ -1,16 +1,33 @@
-.box-img-2 {
-  width: 414px;
-  height: 234px;
-  background-image: url('/images/img-2.jpg');
+.section-1-title {
+  margin: 0px;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 170%;
+  letter-spacing: -0.4px;
+  color: #1652ac;
+  padding-top: 56px;
+  padding-bottom: 56px;
+}
+.hr-section-1 {
+  margin-left: auto;
+  margin-right: auto;
+  width: 227px;
+  height: 0px;
+  border: 2px solid #edeff3;
+}
+.box-img-1 {
+  max-width: 354px;
+  height: 355px;
+  background: url('/images/img-1.jpg') no-repeat center;
   background-size: cover;
 }
 
-.section-title_blue {
-  color: #1652ac;
-  transform: rotate(0.02deg);
-}
-
 .section-1-text {
-  font-size: 17px;
-  color: #45494f;
+  text-align: left;
+  font-weight: 600;
+  font-size: 16px;
+  letter-spacing: -0.004em;
+  color: #020303;
+  margin: 0px;
+  padding-bottom: 56px;
 }

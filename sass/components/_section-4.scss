@@ -1,9 +1,21 @@
+.section-4 {
+  position: relative;
+  padding-top: 250px;
+}
+.box-img-4 {
+  position: absolute;
+  top: -150px;
+  width: 100%;
+  height: 555px;
+  overflow: hidden;
+  background: url('/images/IconHotToCold.jpg') no-repeat center/50%;
+  background-size: contain;
+  z-index: -1;
+}
+.section-4-title {
+  padding-bottom: 30px;
+}
 .section-4-text {
-  font-size: 17px;
-}
-.italic {
-  font-style: italic;
-}
-.weight-600 {
-  font-weight: 600;
+  text-align: left;
+  padding-bottom: 20px;
 }

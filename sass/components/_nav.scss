@@ -1,6 +1,23 @@
+.header-container {
+  padding: 8px 24px;
+  height: 42px;
+}
 .navbar {
   padding: 0px;
 }
 .navbar-light .navbar-nav .active > .nav-link {
   color: #2e75ff;
+}
+
+.navbar-toggler {
+  border: none;
+  padding: 0;
+}
+.navbar-brand {
+  display: block;
+  margin: 0px;
+  padding: 0px;
+}
+.logo-img {
+  display: block;
 }
