@@ -27,14 +27,31 @@
 }
 
 @include media-breakpoint-up(lg) {
-  .logo-img {
-    margin-right: 30px;
-  }
-
   .navbar-light .navbar-nav .nav-link {
     padding: 0px;
+    margin-left: 20px;
+    white-space: nowrap;
   }
-  .navbar-expand-lg .navbar-nav {
+
+  .header-container {
+    padding-left: 60px;
+    padding-right: 60px;
+  }
+}
+@include media-breakpoint-up(xl) {
+  .header-container {
+    padding-left: 120px;
+    padding-right: 120px;
+  }
+  .navbar .navbar-expand-lg .navbar-light {
+    display: flex;
+    justify-content: space-between;
+  }
+  #navbarSupportedContent {
+    max-width: 1056px;
+    justify-content: end;
+  }
+  ul.navbar-nav {
     display: flex;
     justify-content: space-between;
   }

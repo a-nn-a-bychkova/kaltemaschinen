@@ -1,9 +1,12 @@
+@import '../../node_modules/bootstrap/scss/functions';
+@import '../../node_modules/bootstrap/scss/variables';
+@import '../../node_modules/bootstrap/scss/mixins';
 .box-img-3 {
   display: block;
   max-width: 100%;
   height: 505px;
-  // background: url('/images/img-3.jpg') no-repeat center;
-  // background-size: cover;
+  margin-left: auto;
+  margin-right: auto;
 }
 .blue-box {
   background: linear-gradient(180deg, #163da2 0%, #003584 100%);
@@ -18,7 +21,36 @@
   letter-spacing: -0.4px;
   color: #fbfdff;
 }
-.section-3-container {
+.section-3-text-container {
   padding-top: 38px;
   padding-bottom: 38px;
+}
+.box-img-3-desktop {
+  display: none;
+}
+@include media-breakpoint-up(lg) {
+  .section-title_white {
+    padding-bottom: 22px;
+    font-size: 20px;
+  }
+  .box-img-3 {
+    display: none;
+  }
+  .box-img-3-desktop {
+    display: block;
+    max-width: 38%;
+    max-height: 729px;
+  }
+  .section-3-text-container {
+    padding: 100px;
+  }
+  .section-3-text {
+    padding-bottom: 20px;
+  }
+}
+
+@include media-breakpoint-up(xl) {
+  .section-3-text-container {
+    padding: 150px;
+  }
 }

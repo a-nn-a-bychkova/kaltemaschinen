@@ -32,9 +32,7 @@ h3 {
 .upper {
   text-transform: uppercase;
 }
-// .centered {
-//   text-align: center;
-// }
+
 .section {
   text-align: center;
   padding-left: 16px;
@@ -55,6 +53,7 @@ h3 {
 }
 ul {
   padding: 0px;
+  margin: 0px;
 }
 li {
   list-style-type: none;
@@ -80,5 +79,26 @@ p {
 }
 a {
   text-decoration: none;
-  // padding: 0px;
+}
+
+@include media-breakpoint-up(lg) {
+  .section {
+    padding-left: 60px;
+    padding-right: 60px;
+  }
+  .desktop-section-padding {
+    padding-left: 60px;
+    padding-right: 60px;
+  }
+}
+
+@include media-breakpoint-up(xl) {
+  .section {
+    padding-left: 120px;
+    padding-right: 120px;
+  }
+  .desktop-section-padding {
+    padding-left: 120px;
+    padding-right: 120px;
+  }
 }

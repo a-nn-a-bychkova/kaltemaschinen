@@ -1,16 +1,41 @@
+@import '../../node_modules/bootstrap/scss/functions';
+@import '../../node_modules/bootstrap/scss/variables';
+@import '../../node_modules/bootstrap/scss/mixins';
+
 .box-img-2 {
   max-width: 100%;
   max-height: 234px;
-  // background: url('/images/img-2.jpg') no-repeat center;
-  // background-size: cover;
 }
-
+.box-img-2-desktop {
+  display: none;
+}
 .section-2-text {
   text-align: left;
   font-size: 17px;
   line-height: 32px;
   color: #45494f;
 }
-.section-title_blue {
-  color: #1652ac;
+
+@include media-breakpoint-up(lg) {
+  .section-2 {
+    padding-top: 24px;
+    padding-bottom: 66px;
+  }
+  .section-2-title {
+    padding-top: 58px;
+    padding-bottom: 24px;
+    font-size: 20px;
+  }
+  .section-2-text {
+    padding-bottom: 20px;
+  }
+
+  .box-img-2 {
+    display: none;
+  }
+  .box-img-2-desktop {
+    display: block;
+    max-width: 60%;
+    max-height: 477px;
+  }
 }

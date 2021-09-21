@@ -1,8 +1,12 @@
+@import '../../node_modules/bootstrap/scss/functions';
+@import '../../node_modules/bootstrap/scss/variables';
+@import '../../node_modules/bootstrap/scss/mixins';
 .advantages-section {
-  margin-bottom: 56px;
+  padding-bottom: 56px;
   padding-left: 8px;
   padding-right: 8px;
 }
+
 .advantages-title {
   font-weight: 500;
   font-size: 20px;
@@ -31,10 +35,36 @@ li.advantages-item:last-child {
   fill: blue;
   width: 56px;
   height: 56px;
-  // fill: url(' ../../images/svg/symbol-defs-2.svg#gradient');
-  // fill: linear-gradient(332.71deg, #0043a7 -18.7%, #6377e3 80.5%);
 }
 
 .advantages-text {
   margin-left: 20px;
+}
+@include media-breakpoint-up(lg) {
+  .advantages-section {
+    padding-right: 60px;
+    padding-left: 60px;
+  }
+  .advantages-list {
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  .advantages-item {
+    max-width: 32%;
+    margin-right: 8px;
+    margin-bottom: 8px;
+  }
+
+  .advantages-item:nth-child(3n) {
+    margin-right: 0px;
+  }
+  .advantages-item:last-child {
+    margin-bottom: 0px;
+  }
+}
+@include media-breakpoint-up(xl) {
+  .advantages-section {
+    padding-right: 120px;
+    padding-left: 120px;
+  }
 }
