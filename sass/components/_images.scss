@@ -4,26 +4,32 @@
 .images-section {
   padding-left: 8px;
   padding-right: 8px;
-  padding-bottom: 68px;
+  padding-bottom: 90px;
 }
 .images-section-title {
   font-weight: 500;
   font-size: 20px;
   letter-spacing: 4.42px;
-  color: #020303;
+  color: blackTitleTextColor;
   padding-top: 32px;
   padding-bottom: 18px;
+  font-weight: 500;
 }
-
+.image-section-img {
+  max-width: 610px;
+  margin-left: auto;
+  margin-right: auto;
+}
 .carousel-indicators {
   position: absolute;
-  bottom: -80px;
+  bottom: -60px;
+  margin: 0px;
 }
 .carousel-dark .carousel-indicators [data-bs-target] {
   width: 10px;
   height: 10px;
   background: linear-gradient(180deg, #005be4 0%, rgba(0, 96, 241, 0) 100%),
-    #004fc7;
+    $backgroundBlueColor;
   border: 1px solid #bed8ff;
   border-radius: 50%;
   margin-right: 26px;
@@ -34,31 +40,52 @@ button.carousel-control-next {
 }
 
 @include media-breakpoint-up(lg) {
+  .carousel-indicators {
+    left: 200px;
+  }
+  button.carousel-control-prev,
+  button.carousel-control-next {
+    visibility: visible;
+    position: absolute;
+    top: 102%;
+    width: 126px;
+    height: 78px;
+    background: #ffffff;
+    box-shadow: 0px 0px 21px rgba(64, 68, 75, 0.14);
+    border-radius: 8px;
+    opacity: 1;
+  }
+  button.carousel-control-prev {
+    left: 200px;
+  }
+  button.carousel-control-next {
+    left: 336px;
+  }
+  .carousel-control-prev-icon {
+    background-image: url('/images/svg/prev-icon.svg');
+  }
+  .carousel-control-next-icon {
+    background-image: url('/images/svg/next-icon.svg');
+  }
+  .carousel-dark .carousel-control-next-icon,
+  .carousel-dark .carousel-control-prev-icon {
+    filter: none;
+  }
+  .images-section-title {
+    font-size: 28px;
+    text-align: center;
+    letter-spacing: 4.42px;
+  }
+  .image-section-img {
+    max-width: 610px;
+    max-height: 813px;
+  }
 }
-.carousel-control-prev,
-.carousel-control-next {
-  visibility: visible;
-  position: absolute;
-  top: 102%;
-  left: 40px;
-  width: 126px;
-  height: 78px;
-  background: #ffffff;
-  box-shadow: 0px 0px 21px rgba(64, 68, 75, 0.14);
-  border-radius: 8px;
-  opacity: 1;
-}
-
-.carousel-control-next {
-  left: 200px;
-}
-.carousel-control-prev-icon {
-  background-image: url('/images/prev-icon.svg');
-}
-.carousel-control-next-icon {
-  background-image: url('/images/next-icon.svg');
-}
-.carousel-dark .carousel-control-next-icon,
-.carousel-dark .carousel-control-prev-icon {
-  filter: none;
+@include media-breakpoint-up(lg) {
+  button.carousel-control-prev {
+    left: 410px;
+  }
+  button.carousel-control-next {
+    left: 550px;
+  }
 }

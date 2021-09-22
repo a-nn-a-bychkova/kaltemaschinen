@@ -2,7 +2,7 @@
 @import '../../node_modules/bootstrap/scss/variables';
 @import '../../node_modules/bootstrap/scss/mixins';
 .footer-container {
-  margin: 46px 32px;
+  padding: 46px 32px;
 }
 .footer-title {
   font-weight: 700;
@@ -38,4 +38,18 @@
   display: block;
   text-decoration: underline;
   margin-bottom: 10px;
+}
+@include media-breakpoint-up(lg) {
+  .footer-container {
+    padding: 50px 60px;
+    justify-content: space-between;
+  }
+  .footer-list {
+    column-count: 2;
+  }
+}
+@include media-breakpoint-up(xl) {
+  .footer-container {
+    padding: 50px 120px;
+  }
 }

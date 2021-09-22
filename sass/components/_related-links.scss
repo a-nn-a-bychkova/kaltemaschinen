@@ -1,9 +1,12 @@
 @import '../../node_modules/bootstrap/scss/functions';
 @import '../../node_modules/bootstrap/scss/variables';
 @import '../../node_modules/bootstrap/scss/mixins';
-section.related-liks-section {
-  padding: 24px 8px 64px 8px;
+
+.section-8px.related-links-container {
   text-align: center;
+}
+.related-links-list {
+  padding-bottom: 64px;
 }
 
 li .related-links-item {
@@ -12,13 +15,13 @@ li .related-links-item {
   margin-right: auto;
   width: 100%;
   height: 64px;
-  background-color: #004fc7;
+  background-color: $backgroundBlueColor;
   border: 1px solid #ffffff;
   box-sizing: border-box;
   box-shadow: 0px 1px 4px rgba(48, 67, 133, 0.5);
   border-radius: 12px;
   margin-bottom: 8px;
-  justify-content: center;
+  text-align: center;
   text-decoration: none;
   font-weight: 500;
   line-height: 64px;
@@ -28,4 +31,29 @@ li .related-links-item {
 }
 .related-links-item:last-child {
   padding-bottom: 0px;
+}
+
+@include media-breakpoint-up(lg) {
+  .related-links-title {
+    padding-bottom: 30px;
+  }
+  li .related-links-item {
+    width: 296px;
+    height: 64px;
+  }
+  .related-links-li {
+    margin-right: 8px;
+  }
+  .related-links-li:nth-child(3n) {
+    margin-right: 0px;
+  }
+  .related-links-list {
+    flex-wrap: wrap;
+  }
+}
+@include media-breakpoint-up(xl) {
+  li .related-links-item {
+    width: 394px;
+    height: 64px;
+  }
 }

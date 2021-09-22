@@ -38,6 +38,10 @@ h3 {
   padding-left: 16px;
   padding-right: 16px;
 }
+.section-8px {
+  padding-left: 8px;
+  padding-right: 8px;
+}
 .section-title {
   font-family: Roboto, sans-serif;
   font-style: normal;
@@ -75,29 +79,24 @@ p {
 }
 
 .blue {
-  color: #1652ac;
+  color: $blueTextColor;
 }
 a {
   text-decoration: none;
+  padding: 0px;
 }
 
 @include media-breakpoint-up(lg) {
-  .section {
-    padding-left: 60px;
-    padding-right: 60px;
-  }
-  .desktop-section-padding {
+  .section,
+  .section-8px {
     padding-left: 60px;
     padding-right: 60px;
   }
 }
 
 @include media-breakpoint-up(xl) {
-  .section {
-    padding-left: 120px;
-    padding-right: 120px;
-  }
-  .desktop-section-padding {
+  .section,
+  .section-8px {
     padding-left: 120px;
     padding-right: 120px;
   }

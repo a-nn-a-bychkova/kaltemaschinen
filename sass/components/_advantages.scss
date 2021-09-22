@@ -3,8 +3,6 @@
 @import '../../node_modules/bootstrap/scss/mixins';
 .advantages-section {
   padding-bottom: 56px;
-  padding-left: 8px;
-  padding-right: 8px;
 }
 
 .advantages-title {
@@ -12,7 +10,7 @@
   font-size: 20px;
   line-height: 40px;
   letter-spacing: 4.42px;
-  color: #020303;
+  color: blackTitleTextColor;
   padding-top: 28px;
   padding-bottom: 28px;
 }
@@ -41,10 +39,6 @@ li.advantages-item:last-child {
   margin-left: 20px;
 }
 @include media-breakpoint-up(lg) {
-  .advantages-section {
-    padding-right: 60px;
-    padding-left: 60px;
-  }
   .advantages-list {
     flex-wrap: wrap;
     justify-content: space-between;
@@ -60,11 +54,5 @@ li.advantages-item:last-child {
   }
   .advantages-item:last-child {
     margin-bottom: 0px;
-  }
-}
-@include media-breakpoint-up(xl) {
-  .advantages-section {
-    padding-right: 120px;
-    padding-left: 120px;
   }
 }

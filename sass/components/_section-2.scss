@@ -1,7 +1,9 @@
 @import '../../node_modules/bootstrap/scss/functions';
 @import '../../node_modules/bootstrap/scss/variables';
 @import '../../node_modules/bootstrap/scss/mixins';
-
+.section-2 {
+  padding-bottom: 40px;
+}
 .box-img-2 {
   max-width: 100%;
   max-height: 234px;
@@ -25,9 +27,6 @@
     padding-top: 58px;
     padding-bottom: 24px;
     font-size: 20px;
-  }
-  .section-2-text {
-    padding-bottom: 20px;
   }
 
   .box-img-2 {
